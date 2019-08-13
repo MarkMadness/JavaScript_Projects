@@ -10,7 +10,7 @@ function DataType() {
 
     document.write("10" +5);
 
-    document.write(12>43);
+    document.write(12==43);
 
     document.write(5===5);
     document.write("5"===6);
