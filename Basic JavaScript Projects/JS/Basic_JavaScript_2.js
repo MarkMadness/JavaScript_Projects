@@ -1,6 +1,5 @@
 function Demo() {
-    var A = "Let's go";
-    A += " fishing!";
-    document.getElementById("Solution").innerHTML = A;
+    result = 3 * 4;
+    document.getElementById("Solution").innerHTML = result;
 }
 
