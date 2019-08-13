@@ -5,5 +5,5 @@ function PlayerDictionary() {
         BananaWizard: "Wizard Class"
     }
     delete players.FunkyJams;
-    document.getElementById("Dictionary").innerHTML = players.FunkyJams;
+    document.getElementById("Dictionary").innerHTML = "BananaWizard is a " + players.BananaWizard + " player.";
 }
