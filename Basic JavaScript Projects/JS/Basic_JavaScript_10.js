@@ -1,4 +1,4 @@
-/* Assignemnt 
+/* Assignemnt 1 */
 function Call_Loop() {
     var num = 0;
     while (num < 5) {
@@ -6,9 +6,9 @@ function Call_Loop() {
     }
     document.getElementById("Loop").innerHTML = num;
 }
-*/
 
-/*
+
+/* Assignemnt 2 */
 var Instruments = ["Guitar", "Drums", "Piano", "Bass", "Violin", "Trumpet", "Flute"];
 var Content = "";
 var Y;
@@ -18,18 +18,18 @@ function for_Loop() {
     }
     document.getElementById("List_of_Instruments").innerHTML = Content;
 }
-*/
 
-/*
+
+/* Assignemnt 3 */
 const guild = {players: 5, rank: 38, realm: "Ebonhawk"};
 function constant_function() {
     guild.rank = 37;
     guild.lastraid = "Heart of Evil's Lair";
     document.getElementById("Constant").innerHTML = "The guild ran the raid " + guild.lastraid + " last night and are now rank " + guild.rank + ".";
 }
-*/
 
-/*
+
+/* Assignemnt 4 */
 function Let() {
     var A = 4;
     document.write(A);
@@ -39,9 +39,9 @@ function Let() {
     }
     document.write(A);
 }
-*/
 
 
+/* Assignemnt 5 */
     let partyboat = {
         make: "The Best!",
         model: "The Wave Rider",
